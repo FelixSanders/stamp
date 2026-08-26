@@ -1,0 +1,836 @@
+{
+    "stamps": [
+        {
+            "id": "s01-1",
+            "sheet": 1,
+            "number": 1,
+            "museum": "Museum Tekstil Jakarta",
+            "x": 38.32815675418016,
+            "y": 33.88624681406347,
+            "w": 64.30426775028916,
+            "h": 45.90564758467378
+        },
+        {
+            "id": "s01-2",
+            "sheet": 1,
+            "number": 2,
+            "museum": "Museum Tekstil Jakarta",
+            "x": 62.23317985952262,
+            "y": 75.34711919723867,
+            "w": 38.7741416940403,
+            "h": 27.294796883884814
+        },
+        {
+            "id": "s02-1",
+            "sheet": 2,
+            "number": 1,
+            "museum": "Museum Mandiri",
+            "x": 25.28888549404551,
+            "y": 24.49663749198108,
+            "w": 37.89285110807544,
+            "h": 29.19381311432155
+        },
+        {
+            "id": "s02-2",
+            "sheet": 2,
+            "number": 2,
+            "museum": "Museum Mandiri",
+            "x": 75.1014486593802,
+            "y": 27.264309817580894,
+            "w": 35.69514415431737,
+            "h": 28.461768501946622
+        },
+        {
+            "id": "s02-3",
+            "sheet": 2,
+            "number": 3,
+            "museum": "Museum Mandiri",
+            "x": 26.99675961598992,
+            "y": 60.37517838343457,
+            "w": 36.36521679724329,
+            "h": 26.550905076752592
+        },
+        {
+            "id": "s02-4",
+            "sheet": 2,
+            "number": 4,
+            "museum": "Museum Mandiri",
+            "x": 74.38239169285185,
+            "y": 59.408053095277694,
+            "w": 34.489889937929085,
+            "h": 26.35035676686916
+        },
+        {
+            "id": "s02-5",
+            "sheet": 2,
+            "number": 5,
+            "museum": "Museum Mandiri",
+            "x": 27.277354639600887,
+            "y": 88.33314886678485,
+            "w": 34.671152628076946,
+            "h": 23.333702266430308
+        },
+        {
+            "id": "s02-6",
+            "sheet": 2,
+            "number": 6,
+            "museum": "Museum Mandiri",
+            "x": 72.38307330729724,
+            "y": 88.09986037764813,
+            "w": 33.20176159959643,
+            "h": 23.800279244703745
+        },
+        {
+            "id": "s03-1",
+            "sheet": 3,
+            "number": 1,
+            "museum": "Museum Bank Indonesia",
+            "x": 31.76445695494649,
+            "y": 26.18088552341382,
+            "w": 40.046720487658924,
+            "h": 30.36177104682764
+        },
+        {
+            "id": "s03-2",
+            "sheet": 3,
+            "number": 2,
+            "museum": "Museum Bank Indonesia",
+            "x": 72.27417676368476,
+            "y": 54.07324911931847,
+            "w": 46.258833149594025,
+            "h": 27.947056728044444
+        },
+        {
+            "id": "s03-3",
+            "sheet": 3,
+            "number": 3,
+            "museum": "Museum Bank Indonesia",
+            "x": 29.340482977933565,
+            "y": 76.76479279527898,
+            "w": 35.076406844465225,
+            "h": 31.931240699732342
+        },
+        {
+            "id": "s04-1",
+            "sheet": 4,
+            "number": 1,
+            "museum": "Museum Sejarah Jakarta",
+            "x": 36.52986799293162,
+            "y": 35.850488385570245,
+            "w": 39.9565401033521,
+            "h": 28.634668858046744
+        },
+        {
+            "id": "s04-2",
+            "sheet": 4,
+            "number": 2,
+            "museum": "Museum Sejarah Jakarta",
+            "x": 35.37096424668114,
+            "y": 75.4071973281396,
+            "w": 58.51226282973498,
+            "h": 37.31493278663861
+        },
+        {
+            "id": "s04-3",
+            "sheet": 4,
+            "number": 3,
+            "museum": "Museum Sejarah Jakarta",
+            "x": 77.94109625374952,
+            "y": 51.38763285805814,
+            "w": 44.11780749250096,
+            "h": 18.90840949313911
+        },
+        {
+            "id": "s05-1",
+            "sheet": 5,
+            "number": 1,
+            "museum": "Museum Seni Rupa dan Keramik Jakarta",
+            "x": 53.00429607466313,
+            "y": 42.40337973686337,
+            "w": 59.875277413204245,
+            "h": 32.87416400658738
+        },
+        {
+            "id": "s06-1",
+            "sheet": 6,
+            "number": 1,
+            "museum": "Museum Wayang Jakarta",
+            "x": 40.65543585251359,
+            "y": 31.750485840689226,
+            "w": 56.25107278251303,
+            "h": 35.50042337149501
+        },
+        {
+            "id": "s06-2",
+            "sheet": 6,
+            "number": 2,
+            "museum": "Museum Wayang Jakarta",
+            "x": 29.393110086127706,
+            "y": 70.22875766696302,
+            "w": 38.36978939918618,
+            "h": 28.191765910239802
+        },
+        {
+            "id": "s06-3",
+            "sheet": 6,
+            "number": 3,
+            "museum": "Museum Wayang Jakarta",
+            "x": 78.19848794660138,
+            "y": 68.28471074933309,
+            "w": 24.591949186541257,
+            "h": 16.869411319142124
+        },
+        {
+            "id": "s07-1",
+            "sheet": 7,
+            "number": 1,
+            "museum": "Museum Nasional Indonesia",
+            "x": 32.7144605562655,
+            "y": 29.566788664020937,
+            "w": 34.74810532446371,
+            "h": 39.06726941494815
+        },
+        {
+            "id": "s07-2",
+            "sheet": 7,
+            "number": 2,
+            "museum": "Museum Nasional Indonesia",
+            "x": 78.48101405868508,
+            "y": 39.318022361258684,
+            "w": 36.86614661459446,
+            "h": 26.769746988947688
+        },
+        {
+            "id": "s07-3",
+            "sheet": 7,
+            "number": 3,
+            "museum": "Museum Nasional Indonesia",
+            "x": 54.04642555403771,
+            "y": 71.57984919696788,
+            "w": 44.574120086126264,
+            "h": 31.627123285844505
+        },
+        {
+            "id": "s08-1",
+            "sheet": 8,
+            "number": 1,
+            "museum": "Museum Nasional Indonesia",
+            "x": 31.243110086127707,
+            "y": 37.40406257933667,
+            "w": 27.117276045855448,
+            "h": 45.00757684878988
+        },
+        {
+            "id": "s08-2",
+            "sheet": 8,
+            "number": 2,
+            "museum": "Museum Nasional Indonesia",
+            "x": 73.0718976653513,
+            "y": 33.90698723294273,
+            "w": 28.803124828487192,
+            "h": 21.047118242908283
+        },
+        {
+            "id": "s08-3",
+            "sheet": 8,
+            "number": 3,
+            "museum": "Museum Nasional Indonesia",
+            "x": 25.344817723560162,
+            "y": 78.44808637417772,
+            "w": 29.850838984883254,
+            "h": 26.163018791808582
+        },
+        {
+            "id": "s08-4",
+            "sheet": 8,
+            "number": 4,
+            "museum": "Museum Nasional Indonesia",
+            "x": 73.34060662201895,
+            "y": 73.3467105097071,
+            "w": 41.482576472928656,
+            "h": 28.3602670628673
+        },
+        {
+            "id": "s09-1",
+            "sheet": 9,
+            "number": 1,
+            "museum": "Galeri Nasional Indonesia",
+            "x": 35.998587753556265,
+            "y": 31.50020914086649,
+            "w": 56.12412728876427,
+            "h": 34.93357223827986
+        },
+        {
+            "id": "s09-2",
+            "sheet": 9,
+            "number": 2,
+            "museum": "Galeri Nasional Indonesia",
+            "x": 78.1257670449348,
+            "y": 54.17435846349043,
+            "w": 32.28987553265309,
+            "h": 33.88239883436306
+        },
+        {
+            "id": "s09-3",
+            "sheet": 9,
+            "number": 3,
+            "museum": "Galeri Nasional Indonesia",
+            "x": 36.29927657063966,
+            "y": 74.53759192110218,
+            "w": 39.28486323126763,
+            "h": 21.17519402172841
+        },
+        {
+            "id": "s10-1",
+            "sheet": 10,
+            "number": 1,
+            "museum": "Museum Nasional Indonesia",
+            "x": 50.72074033827333,
+            "y": 31.29993371348426,
+            "w": 78.79217578153303,
+            "h": 32.93247816339398
+        },
+        {
+            "id": "s10-2",
+            "sheet": 10,
+            "number": 2,
+            "museum": "Museum Nasional Indonesia",
+            "x": 22.623478057379383,
+            "y": 71.71164255833018,
+            "w": 27.74101936919008,
+            "h": 21.49011080106544
+        },
+        {
+            "id": "s10-3",
+            "sheet": 10,
+            "number": 3,
+            "museum": "Museum Nasional Indonesia",
+            "x": 71.86449876986146,
+            "y": 75.63274818290407,
+            "w": 56.2710024602771,
+            "h": 39.79919863223843
+        },
+        {
+            "id": "s11-1",
+            "sheet": 11,
+            "number": 1,
+            "museum": "Museum Kebangkitan Nasional",
+            "x": 54.914119291675284,
+            "y": 29.689449439932766,
+            "w": 78.33555113361598,
+            "h": 26.279990409870393
+        },
+        {
+            "id": "s11-2",
+            "sheet": 11,
+            "number": 2,
+            "museum": "Museum Kebangkitan Nasional",
+            "x": 29.898697907100665,
+            "y": 64.62793011237585,
+            "w": 38.11385356835254,
+            "h": 33.522706268204786
+        },
+        {
+            "id": "s11-3",
+            "sheet": 11,
+            "number": 3,
+            "museum": "Museum Kebangkitan Nasional",
+            "x": 74.42680387187889,
+            "y": 59.50736516304238,
+            "w": 37.04446253987201,
+            "h": 20.81473032608477
+        },
+        {
+            "id": "s11-4",
+            "sheet": 11,
+            "number": 4,
+            "museum": "Museum Kebangkitan Nasional",
+            "x": 75.61560662201896,
+            "y": 85.29946223864835,
+            "w": 26.736694970152982,
+            "h": 20.732616564202985
+        },
+        {
+            "id": "s12-1",
+            "sheet": 12,
+            "number": 1,
+            "museum": "Museum Sangiran",
+            "x": 22.128725071129654,
+            "y": 31.290681864730004,
+            "w": 39.6816610608535,
+            "h": 29.21507617541437
+        },
+        {
+            "id": "s12-2",
+            "sheet": 12,
+            "number": 2,
+            "museum": "Museum Sangiran",
+            "x": 70.8725792797967,
+            "y": 37.37493753080579,
+            "w": 28.67023630126674,
+            "h": 21.04931657220408
+        },
+        {
+            "id": "s12-3",
+            "sheet": 12,
+            "number": 3,
+            "museum": "Museum Sangiran",
+            "x": 27.92964094057233,
+            "y": 69.52834388966943,
+            "w": 41.29672769029693,
+            "h": 27.457784399105748
+        },
+        {
+            "id": "s12-4",
+            "sheet": 12,
+            "number": 4,
+            "museum": "Museum Sangiran",
+            "x": 74.17942377743503,
+            "y": 72.08662474416312,
+            "w": 35.27344567431889,
+            "h": 21.006972113804643
+        },
+        {
+            "id": "s13-1",
+            "sheet": 13,
+            "number": 1,
+            "museum": "Museum Sangiran",
+            "x": 43.661371683347255,
+            "y": 47.27118786749354,
+            "w": 29.46978939918619,
+            "h": 29.009231957964268
+        },
+        {
+            "id": "s14-1",
+            "sheet": 14,
+            "number": 1,
+            "museum": "Museum Sangiran",
+            "x": 33.15886553265453,
+            "y": 25.662108943404085,
+            "w": 35.74742371001834,
+            "h": 20.992165639790212
+        },
+        {
+            "id": "s14-3",
+            "sheet": 14,
+            "number": 3,
+            "museum": "Museum Sangiran",
+            "x": 34.57758169196016,
+            "y": 65.84409331335567,
+            "w": 41.59536446140617,
+            "h": 29.756129289931366
+        },
+        {
+            "id": "s14-4",
+            "sheet": 14,
+            "number": 4,
+            "museum": "Museum Sangiran",
+            "x": 72.53604122271406,
+            "y": 48.87851681433423,
+            "w": 29.874808903209654,
+            "h": 21.524976291888485
+        },
+        {
+            "id": "s15-1",
+            "sheet": 15,
+            "number": 1,
+            "museum": "Museum Perangko",
+            "x": 26.52496178640404,
+            "y": 17.44886530626828,
+            "w": 20.693291722253026,
+            "h": 19.80655446829191
+        },
+        {
+            "id": "s15-2",
+            "sheet": 15,
+            "number": 2,
+            "museum": "Museum Penerangan",
+            "x": 75.29620164562992,
+            "y": 19.642369003776807,
+            "w": 36.81614661459449,
+            "h": 28.4951915236732
+        },
+        {
+            "id": "s15-3",
+            "sheet": 15,
+            "number": 3,
+            "museum": "Museum Penerangan",
+            "x": 29.255780261055293,
+            "y": 48.3703704924304,
+            "w": 37.511560522110585,
+            "h": 27.61143537702209
+        },
+        {
+            "id": "s15-4",
+            "sheet": 15,
+            "number": 4,
+            "museum": "Museum Transportasi",
+            "x": 76.19654965549063,
+            "y": 48.786112281473606,
+            "w": 28.218205863206634,
+            "h": 18.507581938551922
+        },
+        {
+            "id": "s15-5",
+            "sheet": 15,
+            "number": 5,
+            "museum": "Museum Hakka Indonesia",
+            "x": 25.797679086751593,
+            "y": 78.99725881959053,
+            "w": 24.791239676278874,
+            "h": 20.52820972608734
+        },
+        {
+            "id": "s15-6",
+            "sheet": 15,
+            "number": 6,
+            "museum": "Museum Pusaka",
+            "x": 76.26297951382483,
+            "y": 77.84698466464882,
+            "w": 22.798552226544288,
+            "h": 22.028219905611394
+        },
+        {
+            "id": "s16-1",
+            "sheet": 16,
+            "number": 1,
+            "museum": "Museum Penerangan",
+            "x": 21.409543545780906,
+            "y": 20.84250862612868,
+            "w": 35.83325900210908,
+            "h": 13.28610878226222
+        },
+        {
+            "id": "s16-2",
+            "sheet": 16,
+            "number": 2,
+            "museum": "Museum Penerangan",
+            "x": 69.49894250868746,
+            "y": 21.826344152708337,
+            "w": 40.85815153514865,
+            "h": 22.526139516281233
+        },
+        {
+            "id": "s16-3",
+            "sheet": 16,
+            "number": 3,
+            "museum": "Museum Penerangan",
+            "x": 22.82564340084942,
+            "y": 49.836663136238066,
+            "w": 36.39969606308128,
+            "h": 24.145127463928347
+        },
+        {
+            "id": "s16-4",
+            "sheet": 16,
+            "number": 4,
+            "museum": "Museum Penerangan",
+            "x": 71.36434994535358,
+            "y": 56.558466872571294,
+            "w": 33.351079985151046,
+            "h": 33.11693374514259
+        },
+        {
+            "id": "s16-5",
+            "sheet": 16,
+            "number": 5,
+            "museum": "Museum Penerangan",
+            "x": 24.080894015918695,
+            "y": 79.69808128441571,
+            "w": 36.53257738766369,
+            "h": 15.924371556903239
+        },
+        {
+            "id": "s16-6",
+            "sheet": 16,
+            "number": 6,
+            "museum": "Museum Penerangan",
+            "x": 74.06891534465846,
+            "y": 88.167823768924,
+            "w": 39.64833912209351,
+            "h": 16.863836166871693
+        },
+        {
+            "id": "s17-1",
+            "sheet": 17,
+            "number": 1,
+            "museum": "Museum Transportasi",
+            "x": 25.71902235425138,
+            "y": 16.09044482942273,
+            "w": 30.990558061833497,
+            "h": 23.05708750888927
+        },
+        {
+            "id": "s17-2",
+            "sheet": 17,
+            "number": 2,
+            "museum": "Museum Perangko",
+            "x": 74.43604122271407,
+            "y": 13.888929342600228,
+            "w": 26.452428808765788,
+            "h": 20.788865600965508
+        },
+        {
+            "id": "s17-3",
+            "sheet": 17,
+            "number": 3,
+            "museum": "Museum Asmat",
+            "x": 30.000533247305025,
+            "y": 49.22009379260767,
+            "w": 36.77732317127542,
+            "h": 33.91749223455008
+        },
+        {
+            "id": "s17-4",
+            "sheet": 17,
+            "number": 4,
+            "museum": "Museum Transportasi",
+            "x": 80.4221175150726,
+            "y": 49.00310049215963,
+            "w": 34.494448134595984,
+            "h": 28.480753904712728
+        },
+        {
+            "id": "s17-5",
+            "sheet": 17,
+            "number": 5,
+            "museum": "Museum Transportasi",
+            "x": 32.13683344807136,
+            "y": 84.45152094559228,
+            "w": 34.770471013631564,
+            "h": 27.765501455570146
+        },
+        {
+            "id": "s18-1",
+            "sheet": 18,
+            "number": 1,
+            "museum": "Museum Batik Indonesia",
+            "x": 23.614112546404794,
+            "y": 20.826337790505804,
+            "w": 39.731888570580296,
+            "h": 27.194653393313796
+        },
+        {
+            "id": "s18-2",
+            "sheet": 18,
+            "number": 2,
+            "museum": "Museum Batik Indonesia",
+            "x": 77.07416235840874,
+            "y": 23.394432800482758,
+            "w": 38.16934158237059,
+            "h": 28.996567388143834
+        },
+        {
+            "id": "s18-3",
+            "sheet": 18,
+            "number": 3,
+            "museum": "Museum Batik Indonesia",
+            "x": 24.591395246057242,
+            "y": 50.269949080493774,
+            "w": 36.644449049331016,
+            "h": 26.747605037927897
+        },
+        {
+            "id": "s18-4",
+            "sheet": 18,
+            "number": 4,
+            "museum": "Museum Batik Indonesia",
+            "x": 75.92382875382405,
+            "y": 51.971459477554255,
+            "w": 38.95952916931543,
+            "h": 14.53853247604097
+        },
+        {
+            "id": "s18-5",
+            "sheet": 18,
+            "number": 5,
+            "museum": "Museum Batik Indonesia",
+            "x": 24.369366762793074,
+            "y": 81.1158970496889,
+            "w": 37.843760232247625,
+            "h": 28.83290089866874
+        },
+        {
+            "id": "s18-6",
+            "sheet": 18,
+            "number": 6,
+            "museum": "Museum Batik Indonesia",
+            "x": 77.12313993674067,
+            "y": 82.71768414657211,
+            "w": 37.693766520150604,
+            "h": 27.497269368122332
+        },
+        {
+            "id": "s19-1",
+            "sheet": 19,
+            "number": 1,
+            "museum": "Museum Batik Indonesia",
+            "x": 25.624613776543345,
+            "y": 23.044709500305487,
+            "w": 36.843760232247625,
+            "h": 20.623121267041284
+        },
+        {
+            "id": "s19-2",
+            "sheet": 19,
+            "number": 2,
+            "museum": "Museum Batik Indonesia",
+            "x": 77.6843227813246,
+            "y": 20.309496836814695,
+            "w": 27.130759139319323,
+            "h": 20.756544288767852
+        },
+        {
+            "id": "s19-3",
+            "sheet": 19,
+            "number": 3,
+            "museum": "Museum Batik Indonesia",
+            "x": 54.275195584033824,
+            "y": 60.642026971768715,
+            "w": 59.97687535445982,
+            "h": 36.69122269011839
+        },
+        {
+            "id": "s19-4",
+            "sheet": 19,
+            "number": 4,
+            "museum": "Museum Batik Indonesia",
+            "x": 22.271411606129217,
+            "y": 88.59457247373226,
+            "w": 23.913626973360756,
+            "h": 18.945685953335854
+        },
+        {
+            "id": "s20-1",
+            "sheet": 20,
+            "number": 1,
+            "museum": "Museum Perumusan Naskah Proklamasi",
+            "x": 26.890369223070167,
+            "y": 22.410593456581584,
+            "w": 49.03965614029933,
+            "h": 35.76754611477088
+        },
+        {
+            "id": "s20-2",
+            "sheet": 20,
+            "number": 2,
+            "museum": "Museum Perumusan Naskah Proklamasi",
+            "x": 58.581135016186494,
+            "y": 67.06053066927726,
+            "w": 57.78462131626481,
+            "h": 33.46081537275076
+        },
+        {
+            "id": "s21-1",
+            "sheet": 21,
+            "number": 1,
+            "museum": "Museum Perumusan Naskah Proklamasi",
+            "x": 40.73660593834455,
+            "y": 27.280610096031594,
+            "w": 59.109749476404225,
+            "h": 31.097669097672735
+        },
+        {
+            "id": "s21-2",
+            "sheet": 21,
+            "number": 2,
+            "museum": "Museum Perumusan Naskah Proklamasi",
+            "x": 56.68604122271407,
+            "y": 73.81396778557281,
+            "w": 57.04331241543204,
+            "h": 37.56604467569156
+        }
+    ],
+    "museumInfo": {
+        "Museum Tekstil Jakarta": {
+            "city": "Jakarta Barat",
+            "type": "Textile & cultural heritage",
+            "description": "A museum dedicated to Indonesian traditional textiles and the preservation of wastra. Your collection includes multiple Museum Tekstil impressions."
+        },
+        "Museum Mandiri": {
+            "city": "Jakarta Barat",
+            "type": "Banking & history",
+            "description": "A museum focused on the history of banking and the development of financial institutions in Indonesia."
+        },
+        "Museum Bank Indonesia": {
+            "city": "Jakarta Barat",
+            "type": "Economic & banking history",
+            "description": "A museum presenting the history of Bank Indonesia, Indonesian monetary development, numismatic collections, and the heritage building in Jakarta's Old Town."
+        },
+        "Museum Sejarah Jakarta": {
+            "city": "Jakarta Barat",
+            "type": "Jakarta history",
+            "description": "A museum centered on the history of Jakarta and the city's development through different periods."
+        },
+        "Museum Seni Rupa dan Keramik Jakarta": {
+            "city": "Jakarta Barat",
+            "type": "Art & ceramics",
+            "description": "A museum devoted to Indonesian fine art and ceramic collections."
+        },
+        "Museum Wayang Jakarta": {
+            "city": "Jakarta Barat",
+            "type": "Puppetry & performing arts",
+            "description": "A museum dedicated to Indonesian wayang and related puppetry traditions."
+        },
+        "Museum Nasional Indonesia": {
+            "city": "Jakarta Pusat",
+            "type": "History, archaeology & culture",
+            "description": "Indonesia's national museum, with collections spanning archaeology, ethnography, history, and Indonesian cultural heritage."
+        },
+        "Galeri Nasional Indonesia": {
+            "city": "Jakarta Pusat",
+            "type": "Art gallery",
+            "description": "A national institution for Indonesian visual art exhibitions, collections, and cultural programs."
+        },
+        "Museum Kebangkitan Nasional": {
+            "city": "Jakarta Pusat",
+            "type": "National history",
+            "description": "A museum documenting the history of the Indonesian national awakening and the people and organizations associated with it."
+        },
+        "Museum Sangiran": {
+            "city": "Sragen, Central Java",
+            "type": "Archaeology & human evolution",
+            "description": "A museum and archaeological area associated with the Sangiran site and important prehistoric human and archaeological discoveries."
+        },
+        "Museum Penerangan": {
+            "city": "Jakarta Timur",
+            "type": "Communication & media history",
+            "description": "A museum preserving the history of information, communication, and public information in Indonesia."
+        },
+        "Museum Perangko": {
+            "city": "Jakarta Timur",
+            "type": "Philately",
+            "description": "A museum focused on Indonesian stamps, postal history, and philatelic heritage."
+        },
+        "Museum Asmat": {
+            "city": "Jakarta Timur",
+            "type": "Indigenous art & culture",
+            "description": "A museum showcasing Asmat art and cultural heritage."
+        },
+        "Museum Transportasi": {
+            "city": "Jakarta Timur",
+            "type": "Transportation",
+            "description": "A museum presenting the development of transportation in Indonesia through vehicles, models, and historical material."
+        },
+        "Museum Hakka Indonesia": {
+            "city": "Jakarta Timur",
+            "type": "Community & cultural heritage",
+            "description": "A museum associated with Hakka Indonesian heritage and cultural history."
+        },
+        "Museum Pusaka": {
+            "city": "Jakarta Timur",
+            "type": "Heritage collection",
+            "description": "A museum within the Taman Mini Indonesia Indah complex devoted to Indonesian heritage objects."
+        },
+        "Museum Batik Indonesia": {
+            "city": "Jakarta Timur",
+            "type": "Textile & batik",
+            "description": "A museum dedicated to Indonesian batik traditions, motifs, techniques, and cultural heritage."
+        },
+        "Museum Perumusan Naskah Proklamasi": {
+            "city": "Jakarta Pusat",
+            "type": "Independence history",
+            "description": "A museum documenting the historical setting and events surrounding the formulation of Indonesia's Proclamation of Independence."
+        }
+    }
+}

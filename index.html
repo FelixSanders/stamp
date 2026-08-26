@@ -1,97 +1,106 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Felix's Museum Stamp Collection</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FSK | Stamp Collection</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header class="hero">
-  <nav>
-    <a class="brand" href="#">FSK<span>.</span></a>
-    <div class="nav-links">
-      <a href="#collection">Collection</a>
-      <a href="#museums">Museums</a>
+  <header class="hero">
+    <nav>
+      <a class="brand" href="#">FSK<span>.</span></a>
+      <div class="nav-links">
+        <a href="#collection">Collection</a>
+        <a href="#museums">Museums</a>
+      </div>
+    </nav>
+    <div class="hero-copy">
+      <p class="eyebrow">PERSONAL COLLECTION</p>
+      <h1>Museum stamps,<br><em>one story at a time.</em></h1>
+      <p class="intro">Explore my collection of museum stamps. Select a stamp directly from a sheet to reveal the museum
+        behind it.</p>
+      <a class="primary" href="#collection">Explore collection <span>↓</span></a>
     </div>
-  </nav>
-  <div class="hero-copy">
-    <p class="eyebrow">PERSONAL COLLECTION</p>
-    <h1>Museum stamps,<br><em>one story at a time.</em></h1>
-    <p class="intro">Explore my collection of museum stamps. Select a stamp directly from a sheet to reveal the museum behind it.</p>
-    <a class="primary" href="#collection">Explore collection <span>↓</span></a>
+  </header>
+
+  <main>
+    <section class="stats">
+      <div><strong id="stampCount">0</strong><span>stamps indexed</span></div>
+      <div><strong>21</strong><span>stamp sheets</span></div>
+      <div><strong id="museumCount">0</strong><span>museums</span></div>
+    </section>
+
+    <section id="collection" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">THE ARCHIVE</p>
+          <h2>Stamp sheets</h2>
+        </div>
+        <input id="search" type="search" placeholder="Search museums...">
+      </div>
+      <div id="sheetGrid" class="sheet-grid"></div>
+    </section>
+
+    <section id="museums" class="section museum-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">DIRECTORY</p>
+          <h2>Museums in the collection</h2>
+        </div>
+      </div>
+      <div id="museumGrid" class="museum-grid"></div>
+    </section>
+  </main>
+
+  <div id="viewer" class="viewer" aria-hidden="true">
+    <div class="viewer-backdrop" data-close></div>
+    <div class="viewer-panel">
+      <button class="close" data-close aria-label="Close">×</button>
+      <div class="viewer-image-wrap">
+        <img id="viewerImage" alt="">
+        <div id="hotspots"></div>
+      </div>
+      <div class="viewer-side">
+        <p class="eyebrow" id="viewerLabel">STAMP</p>
+        <h3 id="viewerTitle">Museum</h3>
+        <p id="viewerMeta"></p>
+        <p id="viewerDescription"></p>
+        <div class="hint">Click another stamp on the sheet to switch museums.</div>
+      </div>
+    </div>
   </div>
-</header>
 
-<main>
-<section class="stats">
-  <div><strong id="stampCount">0</strong><span>stamps indexed</span></div>
-  <div><strong>21</strong><span>stamp sheets</span></div>
-  <div><strong id="museumCount">0</strong><span>museums</span></div>
-</section>
+  <div id="detail" class="detail" aria-hidden="true">
+    <div class="detail-backdrop" data-detail-close></div>
+    <article class="detail-card">
+      <button class="close" data-detail-close aria-label="Close">×</button>
+      <p class="eyebrow">MUSEUM DETAIL</p>
+      <h3 id="detailTitle"></h3>
+      <div class="detail-meta">
+        <span id="detailCity"></span>
+        <span id="detailType"></span>
+      </div>
+      <p id="detailDescription"></p>
+      <button class="primary" id="detailStampButton">View stamps <span>→</span></button>
+    </article>
+  </div>
 
-<section id="collection" class="section">
-  <div class="section-heading">
+  <footer>
     <div>
-      <p class="eyebrow">THE ARCHIVE</p>
-      <h2>Stamp sheets</h2>
+      <img src="https://felixsanders.com/images/FSKProjectBlack.svg" alt="FSK" height="60" width="180">
+      <img src="https://felixsanders.com/images/FSKGalleryBlack.svg" alt="FSK" height="60" width="180">
     </div>
-    <input id="search" type="search" placeholder="Search museums...">
-  </div>
-  <div id="sheetGrid" class="sheet-grid"></div>
-</section>
-
-<section id="museums" class="section museum-section">
-  <div class="section-heading">
-    <div>
-      <p class="eyebrow">DIRECTORY</p>
-      <h2>Museums in the collection</h2>
-    </div>
-  </div>
-  <div id="museumGrid" class="museum-grid"></div>
-</section>
-</main>
-
-<div id="viewer" class="viewer" aria-hidden="true">
-  <div class="viewer-backdrop" data-close></div>
-  <div class="viewer-panel">
-    <button class="close" data-close aria-label="Close">×</button>
-    <div class="viewer-image-wrap">
-      <img id="viewerImage" alt="">
-      <div id="hotspots"></div>
-    </div>
-    <div class="viewer-side">
-      <p class="eyebrow" id="viewerLabel">STAMP</p>
-      <h3 id="viewerTitle">Museum</h3>
-      <p id="viewerMeta"></p>
-      <p id="viewerDescription"></p>
-      <div class="hint">Click another stamp on the sheet to switch museums.</div>
-    </div>
-  </div>
-</div>
-
-<div id="detail" class="detail" aria-hidden="true">
-  <div class="detail-backdrop" data-detail-close></div>
-  <article class="detail-card">
-    <button class="close" data-detail-close aria-label="Close">×</button>
-    <p class="eyebrow">MUSEUM DETAIL</p>
-    <h3 id="detailTitle"></h3>
-    <div class="detail-meta">
-      <span id="detailCity"></span>
-      <span id="detailType"></span>
-    </div>
-    <p id="detailDescription"></p>
-    <button class="primary" id="detailStampButton">View stamps <span>→</span></button>
-  </article>
-</div>
-
-<footer>
-  <div class="brand">FSK<span>.</span></div>
-  <p>A personal digital archive of museum stamps.</p>
-</footer>
-<script src="script.js"></script>
+    <p>A personal digital archive of museum stamps.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
+
 </html>
