@@ -85,9 +85,15 @@ function positionHotspots() {
   });
 }
 
+function syncBodyScroll() {
+  const anyOpen = viewer.classList.contains('open') || detail.classList.contains('open');
+  document.body.classList.toggle('modal-open', anyOpen);
+}
+
 function openViewer(sheet, selectedId) {
   viewer.classList.add('open');
   viewer.setAttribute('aria-hidden', 'false');
+  syncBodyScroll();
   const img = document.getElementById('viewerImage');
   const hs = document.getElementById('hotspots');
   hs.innerHTML = '';
@@ -142,6 +148,7 @@ function openDetail(name) {
   const info = museumInfo[name];
   detail.classList.add('open');
   detail.setAttribute('aria-hidden', 'false');
+  syncBodyScroll();
   document.getElementById('detailTitle').textContent = name;
   document.getElementById('detailCity').textContent = info.city;
   document.getElementById('detailType').textContent = info.type;
@@ -156,15 +163,18 @@ function openDetail(name) {
 document.querySelectorAll('[data-close]').forEach(x => x.onclick = () => {
   viewer.classList.remove('open');
   viewer.setAttribute('aria-hidden', 'true');
+  syncBodyScroll();
 });
 document.querySelectorAll('[data-detail-close]').forEach(x => x.onclick = () => {
   detail.classList.remove('open');
   detail.setAttribute('aria-hidden', 'true');
+  syncBodyScroll();
 });
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
     viewer.classList.remove('open');
     detail.classList.remove('open');
+    syncBodyScroll();
   }
 });
 search.addEventListener('input', e => {

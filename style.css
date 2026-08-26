@@ -2,10 +2,11 @@
 :root{--ink:#16221c;--muted:#6f776f;--paper:#f5f3ed;--card:#fffdf8;--line:#dedbd1;--accent:#315b43;--hotspot:#e0a530;--hotspot-bright:#f4c463;--hotspot-deep:#a8701a}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:Poppins,system-ui,sans-serif}
+body.modal-open{overflow:hidden}
 h1,h2,h3,p{margin:0}
 a{text-decoration:none;color:inherit}
 button,input{font:inherit}
-.hero{min-height:78vh;padding:28px 6vw 80px;background:linear-gradient(135deg,#e8eadf 0%,#f5f3ed 62%,#e9e6db 100%)}
+.hero{min-height:78vh;padding:16px 6vw 80px;background:linear-gradient(135deg,#e8eadf 0%,#f5f3ed 62%,#e9e6db 100%)}
 nav{display:flex;justify-content:space-between;align-items:center;max-width:1300px;margin:auto}
 .brand{font:700 28px "DM Sans",sans-serif;letter-spacing:-1px}
 .brand span{color:var(--accent)}
@@ -27,7 +28,7 @@ nav{display:flex;justify-content:space-between;align-items:center;max-width:1300
 .section h2{font:700 clamp(38px,5vw,64px) "DM Sans",sans-serif;letter-spacing:-3px;margin-top:8px}
 #search{width:260px;border:0;border-bottom:1px solid #aaa;background:transparent;padding:12px 0;outline:none;color:var(--ink)}
 .sheet-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.sheet-card{background:var(--card);border:1px solid var(--line);cursor:pointer;transition:.25s;overflow:hidden}
+.sheet-card{background:var(--card);border:1px solid var(--line);cursor:pointer;transition:.25s;overflow:hidden;user-select:none;-webkit-user-select:none}
 .sheet-card:hover{transform:translateY(-5px);box-shadow:0 16px 40px #26362918}
 .sheet-card img{display:block;width:100%;aspect-ratio:595/842;object-fit:cover;background:#fff}
 .sheet-info{padding:17px 18px 20px;display:flex;justify-content:space-between;gap:15px}
@@ -35,7 +36,7 @@ nav{display:flex;justify-content:space-between;align-items:center;max-width:1300
 .sheet-info span{font-size:11px;color:var(--muted)}
 .museum-section{padding-top:40px}
 .museum-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.museum-card{padding:22px;background:var(--card);border:1px solid var(--line);cursor:pointer;min-height:145px;transition:.2s}
+.museum-card{padding:22px;background:var(--card);border:1px solid var(--line);cursor:pointer;min-height:145px;transition:.2s;user-select:none;-webkit-user-select:none}
 .museum-card:hover{border-color:#9da79e;transform:translateY(-3px)}
 .museum-card h3{font:600 19px "DM Sans",sans-serif;line-height:1.1;margin:8px 0 12px}
 .museum-card p{font-size:12px;color:var(--muted)}
@@ -43,8 +44,8 @@ nav{display:flex;justify-content:space-between;align-items:center;max-width:1300
 .viewer.open,.detail.open{display:block}
 .viewer-backdrop,.detail-backdrop{position:absolute;inset:0;background:#101812d9;backdrop-filter:blur(8px)}
 .viewer-panel{position:absolute;inset:4vh 4vw;display:grid;grid-template-columns:minmax(0,1.35fr) minmax(300px,.65fr);background:var(--paper);overflow:hidden}
-.viewer-image-wrap{position:relative;background:#e9e7df;display:flex;align-items:center;justify-content:center;overflow:auto}
-.viewer-image-wrap img{width:100%;height:100%;object-fit:contain}
+.viewer-image-wrap{position:relative;background:#e9e7df;display:flex;align-items:center;justify-content:center;overflow:auto;user-select:none;-webkit-user-select:none}
+.viewer-image-wrap img{width:100%;height:100%;object-fit:contain;-webkit-user-drag:none;user-drag:none;pointer-events:none}
 #hotspots{position:absolute;inset:0}
 
 /* Hotspot marker: four corner brackets framing a subtle fill wash, a
@@ -53,7 +54,7 @@ nav{display:flex;justify-content:space-between;align-items:center;max-width:1300
    because it stays legible against white sheet borders and against the
    greens/browns common in the stamp illustrations themselves — a green
    marker tends to disappear into both. */
-.hotspot{position:absolute;cursor:pointer;background:transparent;border:0;padding:0;-webkit-tap-highlight-color:transparent}
+.hotspot{position:absolute;cursor:pointer;background:transparent;border:0;padding:0;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;touch-action:manipulation}
 .hotspot:focus-visible{outline:2px solid var(--hotspot);outline-offset:3px;border-radius:4px}
 .hotspot::before{content:'';position:absolute;inset:6%;background:var(--hotspot);opacity:0;border-radius:6px;transition:opacity .25s,inset .25s}
 .hotspot:hover::before{opacity:.16}

@@ -464,7 +464,7 @@
             "id": "s15-4",
             "sheet": 15,
             "number": 4,
-            "museum": "Museum Transportasi",
+            "museum": "Museum Pemadam Kebakaran Pertama",
             "x": 76.19654965549063,
             "y": 48.786112281473606,
             "w": 28.218205863206634,
@@ -811,6 +811,11 @@
             "city": "Jakarta Timur",
             "type": "Transportation",
             "description": "A museum presenting the development of transportation in Indonesia through vehicles, models, and historical material."
+        },
+        "Museum Pemadam Kebakaran Pertama": {
+            "city": "Jakarta Timur",
+            "type": "Firefighting history",
+            "description": "A museum showcasing the history and development of firefighting in Indonesia."
         },
         "Museum Hakka Indonesia": {
             "city": "Jakarta Timur",
